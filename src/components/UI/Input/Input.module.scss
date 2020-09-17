@@ -1,0 +1,18 @@
+.input {
+  box-sizing: border-box;
+  &--text {
+    display: block;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    padding: 7px 15px;
+    width: 100%;
+    outline: none;
+    transition: all .3s ease-in-out;
+    background-color: #eee;
+    margin-bottom: 10px;
+  }
+
+  &--error {
+    border-color: red !important;
+  }
+}

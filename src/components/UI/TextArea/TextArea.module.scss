@@ -1,0 +1,17 @@
+.textarea {
+  display: block;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  padding: 7px 15px;
+  width: 100%;
+  outline: none;
+  transition: all .3s ease-in-out;
+  background-color: #eee;
+  margin-bottom: 10px;
+  resize: vertical;
+  min-height: 100px;
+
+  &--error {
+    border-color: red !important;
+  }
+}
